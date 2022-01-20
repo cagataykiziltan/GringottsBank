@@ -1,0 +1,333 @@
+{
+	"info": {
+		"_postman_id": "11a70652-cffd-4103-8923-aa0863faf5f3",
+		"name": "bnk",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Customer",
+			"item": [
+				{
+					"name": "CreateCustomer",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiQWRtaW4iLCJleHAiOjE2NDI2MTIwOTQsImlzcyI6Ind3dy5jYWdhdGF5a2l6aWx0YW4ubmV0IiwiYXVkIjoidG9rZW5Db25zdW1lciJ9.6dberGBKQbCJBc-XoKN6boh6DTSUgG8IUJ2kRKk4F1w",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"items\": [\r\n    {\r\n      \"identificationNo\": \"12345678911\",\r\n      \"name\": \"hüseyin\",\r\n      \"surname\": \"kiziltans\",\r\n      \"phoneNumber\": \"5396184808\",\r\n      \"street\": \"yyy\",\r\n      \"city\": \"yyy\",\r\n      \"state\": \"xxxx\"\r\n    }\r\n  ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44394/Customer/CreateCustomer",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Customer",
+								"CreateCustomer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllCustomerAccounts",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"items\": [\r\n    {\r\n      \"customerId\": \"A3747CD3-37EB-4508-0727-08D9DAA93D86\"\r\n    }\r\n  ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44394/Customer/GetAllCustomerAccounts",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Customer",
+								"GetAllCustomerAccounts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCustomerAccountDetails",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiQWRtaW4iLCJleHAiOjE2NDI1NDA3NDIsImlzcyI6Ind3dy5jYWdhdGF5a2l6aWx0YW4ubmV0IiwiYXVkIjoidG9rZW5Db25zdW1lciJ9.1C29hZgzz4k97fBqsI3ehExiMRn-p_sDnKVq6QA21P8",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"items\": [\r\n    {\r\n      \"customerId\": \"A3747CD3-37EB-4508-0727-08D9DAA93D86\",\r\n      \"accountId\": \"7E30618C-3306-4958-A50F-08D9DAAC6E16\"\r\n    }\r\n  ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44394/Customer/GetCustomerAccountDetails",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Customer",
+								"GetCustomerAccountDetails"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Account",
+			"item": [
+				{
+					"name": "CreateAccount",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiQWRtaW4iLCJleHAiOjE2NDI1NTMzMDYsImlzcyI6Ind3dy5jYWdhdGF5a2l6aWx0YW4ubmV0IiwiYXVkIjoidG9rZW5Db25zdW1lciJ9.y7NAOSivQVruCQlnS5BfAytX_IGRx-E_UYp9poj49d8",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"items\": [\r\n    {\r\n      \"customerId\": \"DB5649A9-713B-426C-35AF-08D9DACEB242\",\r\n      \"description\": \"test\",\r\n      \"balance\": 999\r\n    }\r\n  ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44394/Account/CreateAccount",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Account",
+								"CreateAccount"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddMoney",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiQWRtaW4iLCJleHAiOjE2NDI1NTMzMDYsImlzcyI6Ind3dy5jYWdhdGF5a2l6aWx0YW4ubmV0IiwiYXVkIjoidG9rZW5Db25zdW1lciJ9.y7NAOSivQVruCQlnS5BfAytX_IGRx-E_UYp9poj49d8",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"items\": [\r\n    {\r\n      \"accountId\": \"47D08ACA-F6FD-4FA3-92D5-4F3E5F8A2C48\",\r\n      \"amount\": 125\r\n    }\r\n  ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44394/Account/AddMoney",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Account",
+								"AddMoney"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "WithdrawMoney",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiQWRtaW4iLCJleHAiOjE2NDI1Mzc1NjQsImlzcyI6Ind3dy5jYWdhdGF5a2l6aWx0YW4ubmV0IiwiYXVkIjoidG9rZW5Db25zdW1lciJ9.7OMwpxVMpL7fSNEwbAP278bXSujtSKfPVFKuYT0GWvc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"items\": [\r\n    {\r\n      \"accountId\": \"6B124245-79D8-4BA2-DD88-08D9DAAF5232\",\r\n      \"amount\": 200\r\n    }\r\n  ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44394/Account/WithdrawMoney",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Account",
+								"WithdrawMoney"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllAccountTransactions",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiQWRtaW4iLCJleHAiOjE2NDI1NTMzMDYsImlzcyI6Ind3dy5jYWdhdGF5a2l6aWx0YW4ubmV0IiwiYXVkIjoidG9rZW5Db25zdW1lciJ9.y7NAOSivQVruCQlnS5BfAytX_IGRx-E_UYp9poj49d8",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"items\": [\r\n    {\r\n      \"accountId\": \"6B124245-79D8-4BA2-DD88-08D9DAAF5232\"\r\n    }\r\n  ]\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44394/Account/GetAllAccountTransactions",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44394",
+							"path": [
+								"Account",
+								"GetAllAccountTransactions"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Token",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "pass",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44394/Auth/token",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44394",
+					"path": [
+						"Auth",
+						"token"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
