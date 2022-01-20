@@ -4,10 +4,10 @@ Bank
 
 For running, 
 
-1.First you must set up backup database.
-2.Setting up connection string.
-3.Get token from auth controller with basic authentication.
-4.Call functions with and barear token you got from auth controller.
+1.First you must set up backup database from the DbAndPostmanCollections folder. <br/>
+2.Setting up connection string to appsetting.json. <br/>
+3.Get token from auth controller with basic authentication (Name = "Admin" password="pass"). <br/>
+4.Call functions with and barear token you got from auth controller. <br/>
 
 
 * Project coded according to DDD principles.
