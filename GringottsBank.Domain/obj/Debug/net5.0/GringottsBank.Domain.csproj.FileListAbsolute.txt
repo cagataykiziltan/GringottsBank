@@ -1,0 +1,12 @@
+C:\Users\M. Çağatay Kızıltan\source\repos\GringottsBank\GringottsBank.Domain\obj\Debug\net5.0\GringottsBank.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M. Çağatay Kızıltan\source\repos\GringottsBank\GringottsBank.Domain\obj\Debug\net5.0\GringottsBank.Domain.AssemblyInfoInputs.cache
+C:\Users\M. Çağatay Kızıltan\source\repos\GringottsBank\GringottsBank.Domain\obj\Debug\net5.0\GringottsBank.Domain.AssemblyInfo.cs
+C:\Users\M. Çağatay Kızıltan\source\repos\GringottsBank\GringottsBank.Domain\obj\Debug\net5.0\GringottsBank.Domain.csproj.CoreCompileInputs.cache
+C:\Users\M. Çağatay Kızıltan\source\repos\GringottsBank\GringottsBank.Domain\bin\Debug\net5.0\GringottsBank.Domain.deps.json
+C:\Users\M. Çağatay Kızıltan\source\repos\GringottsBank\GringottsBank.Domain\bin\Debug\net5.0\GringottsBank.Domain.dll
+C:\Users\M. Çağatay Kızıltan\source\repos\GringottsBank\GringottsBank.Domain\bin\Debug\net5.0\ref\GringottsBank.Domain.dll
+C:\Users\M. Çağatay Kızıltan\source\repos\GringottsBank\GringottsBank.Domain\bin\Debug\net5.0\GringottsBank.Domain.pdb
+C:\Users\M. Çağatay Kızıltan\source\repos\GringottsBank\GringottsBank.Domain\obj\Debug\net5.0\GringottsBank.Domain.dll
+C:\Users\M. Çağatay Kızıltan\source\repos\GringottsBank\GringottsBank.Domain\obj\Debug\net5.0\ref\GringottsBank.Domain.dll
+C:\Users\M. Çağatay Kızıltan\source\repos\GringottsBank\GringottsBank.Domain\obj\Debug\net5.0\GringottsBank.Domain.pdb
+C:\Users\M. Çağatay Kızıltan\source\repos\GringottsBank\GringottsBank.Domain\obj\Debug\net5.0\GringottsBank.Domain.csproj.AssemblyReference.cache

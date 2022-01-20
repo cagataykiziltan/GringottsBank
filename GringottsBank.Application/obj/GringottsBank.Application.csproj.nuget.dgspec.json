@@ -1,0 +1,239 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\M. Çağatay Kızıltan\\source\\repos\\GringottsBank\\GringottsBank.Application\\GringottsBank.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\M. Çağatay Kızıltan\\source\\repos\\GringottsBank\\GringottsBank.Application\\GringottsBank.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\M. Çağatay Kızıltan\\source\\repos\\GringottsBank\\GringottsBank.Application\\GringottsBank.Application.csproj",
+        "projectName": "GringottsBank.Application",
+        "projectPath": "C:\\Users\\M. Çağatay Kızıltan\\source\\repos\\GringottsBank\\GringottsBank.Application\\GringottsBank.Application.csproj",
+        "packagesPath": "C:\\Users\\M. Çağatay Kızıltan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\M. Çağatay Kızıltan\\source\\repos\\GringottsBank\\GringottsBank.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\M. Çağatay Kızıltan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\M. Çağatay Kızıltan\\source\\repos\\GringottsBank\\GringottsBank.Domain\\GringottsBank.Domain.csproj": {
+                "projectPath": "C:\\Users\\M. Çağatay Kızıltan\\source\\repos\\GringottsBank\\GringottsBank.Domain\\GringottsBank.Domain.csproj"
+              },
+              "C:\\Users\\M. Çağatay Kızıltan\\source\\repos\\GringottsBank\\GringottsBank.Infrastructure\\GringottsBank.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\M. Çağatay Kızıltan\\source\\repos\\GringottsBank\\GringottsBank.Infrastructure\\GringottsBank.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MethodBoundaryAspect.Fody": {
+              "target": "Package",
+              "version": "[2.0.144, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\M. Çağatay Kızıltan\\source\\repos\\GringottsBank\\GringottsBank.Domain\\GringottsBank.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\M. Çağatay Kızıltan\\source\\repos\\GringottsBank\\GringottsBank.Domain\\GringottsBank.Domain.csproj",
+        "projectName": "GringottsBank.Domain",
+        "projectPath": "C:\\Users\\M. Çağatay Kızıltan\\source\\repos\\GringottsBank\\GringottsBank.Domain\\GringottsBank.Domain.csproj",
+        "packagesPath": "C:\\Users\\M. Çağatay Kızıltan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\M. Çağatay Kızıltan\\source\\repos\\GringottsBank\\GringottsBank.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\M. Çağatay Kızıltan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\M. Çağatay Kızıltan\\source\\repos\\GringottsBank\\GringottsBank.Infrastructure\\GringottsBank.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\M. Çağatay Kızıltan\\source\\repos\\GringottsBank\\GringottsBank.Infrastructure\\GringottsBank.Infrastructure.csproj",
+        "projectName": "GringottsBank.Infrastructure",
+        "projectPath": "C:\\Users\\M. Çağatay Kızıltan\\source\\repos\\GringottsBank\\GringottsBank.Infrastructure\\GringottsBank.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\M. Çağatay Kızıltan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\M. Çağatay Kızıltan\\source\\repos\\GringottsBank\\GringottsBank.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\M. Çağatay Kızıltan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\M. Çağatay Kızıltan\\source\\repos\\GringottsBank\\GringottsBank.Domain\\GringottsBank.Domain.csproj": {
+                "projectPath": "C:\\Users\\M. Çağatay Kızıltan\\source\\repos\\GringottsBank\\GringottsBank.Domain\\GringottsBank.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

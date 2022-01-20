@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GringottsBank", "GringottsBank\GringottsBank.csproj", "{3C29AF49-F8A7-463D-8046-D66DD3E753D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6FADADE3-2C3C-49B7-B440-0FBE2D8088F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{550A86D2-6EFD-4182-8248-34957859974D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GringottsBank.Domain", "GringottsBank.Domain\GringottsBank.Domain.csproj", "{981E1C7E-0916-4EB7-AD27-F330C7285E17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GringottsBank.Application", "GringottsBank.Application\GringottsBank.Application.csproj", "{5E1E4067-2E4E-4E2B-87FB-99D546FFDCC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GringottsBank.Infrastructure", "GringottsBank.Infrastructure\GringottsBank.Infrastructure.csproj", "{5D2C3C86-E21E-47B3-8D6B-01BEC2F5F86F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GringottsBank.Tests", "GringottsBank.Tests\GringottsBank.Tests.csproj", "{0C141A6D-0FBE-487A-BC0B-5337AA102732}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C29AF49-F8A7-463D-8046-D66DD3E753D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C29AF49-F8A7-463D-8046-D66DD3E753D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C29AF49-F8A7-463D-8046-D66DD3E753D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C29AF49-F8A7-463D-8046-D66DD3E753D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{981E1C7E-0916-4EB7-AD27-F330C7285E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{981E1C7E-0916-4EB7-AD27-F330C7285E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{981E1C7E-0916-4EB7-AD27-F330C7285E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{981E1C7E-0916-4EB7-AD27-F330C7285E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E1E4067-2E4E-4E2B-87FB-99D546FFDCC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E1E4067-2E4E-4E2B-87FB-99D546FFDCC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E1E4067-2E4E-4E2B-87FB-99D546FFDCC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E1E4067-2E4E-4E2B-87FB-99D546FFDCC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D2C3C86-E21E-47B3-8D6B-01BEC2F5F86F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D2C3C86-E21E-47B3-8D6B-01BEC2F5F86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D2C3C86-E21E-47B3-8D6B-01BEC2F5F86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D2C3C86-E21E-47B3-8D6B-01BEC2F5F86F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C141A6D-0FBE-487A-BC0B-5337AA102732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C141A6D-0FBE-487A-BC0B-5337AA102732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C141A6D-0FBE-487A-BC0B-5337AA102732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C141A6D-0FBE-487A-BC0B-5337AA102732}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C29AF49-F8A7-463D-8046-D66DD3E753D8} = {6FADADE3-2C3C-49B7-B440-0FBE2D8088F9}
+		{981E1C7E-0916-4EB7-AD27-F330C7285E17} = {6FADADE3-2C3C-49B7-B440-0FBE2D8088F9}
+		{5E1E4067-2E4E-4E2B-87FB-99D546FFDCC0} = {6FADADE3-2C3C-49B7-B440-0FBE2D8088F9}
+		{5D2C3C86-E21E-47B3-8D6B-01BEC2F5F86F} = {6FADADE3-2C3C-49B7-B440-0FBE2D8088F9}
+		{0C141A6D-0FBE-487A-BC0B-5337AA102732} = {550A86D2-6EFD-4182-8248-34957859974D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {583CFD45-81D5-4D72-A52A-8B9A56368E66}
+	EndGlobalSection
+EndGlobal
