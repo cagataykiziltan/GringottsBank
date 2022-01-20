@@ -35,6 +35,7 @@ Account Api
 - GetAllAccountTransactions : Get all transcations of an account
 - GetAccountTransactionBetweenPeriod : Get Transactions between period 
 
+-------------------------------------------------------------------------------
 
 * MsSql database is selected because project needs strongly consistency because of financial operations and we can utilize ACID principles for that.
 
