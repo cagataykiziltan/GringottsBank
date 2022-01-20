@@ -12,11 +12,11 @@ For running,
 
 * Project coded according to DDD principles.
 
-Presentation Layer : Layer which opens api to the world. <br/>
-Application Layer    : Manages use cases with mediator pattern by calling domain methods and repositories. <br/>
-Domain Layer            : Core business entities layers which include critical business data and rules. <br/>
-Infrastructure Layer : Database operations like repositories&Unit of work and third party libraries. <br/>
-Test Layer                   : Includes some unit tests for domain and application layers. <br/>
+<b>Presentation Layer   :</b> Layer which opens api to the world. <br/>
+<b>Application Layer    :</b> Manages use cases with mediator pattern by calling domain methods and repositories. <br/>
+<b>Domain Layer         :</b> Core business entities layers which include critical business data and rules. <br/>
+<b>Infrastructure Layer : </b> Database operations like repositories&Unit of work and third party libraries. <br/>
+<b>Test Layer           :</b> Includes some unit tests for domain and application layers. <br/>
 
 
 ![1_x4O5ae2f8UzCXncyvqprMg](https://user-images.githubusercontent.com/45563744/150317081-2e3e26ed-1294-4b6d-bd04-e8fcac3651bf.jpeg)
