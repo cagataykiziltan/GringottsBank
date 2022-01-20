@@ -17,6 +17,8 @@ Application Layer    : Manages use cases with mediator pattern by calling domain
 Domain Layer            : Core business entities layers which include critical business data and rules.
 Infrastructure Layer : Database operations like repositories&Unit of work and third party libraries.
 Test Layer                   : Includes some unit tests for domain and application layers.
+
+
 ![1_x4O5ae2f8UzCXncyvqprMg](https://user-images.githubusercontent.com/45563744/150317081-2e3e26ed-1294-4b6d-bd04-e8fcac3651bf.jpeg)
 
 Customer Api
@@ -42,6 +44,7 @@ Account Api
 
 * Jwt based authentication was used.
 
+* All methods logged representatively with aspect oriented approach.
 
 
 
