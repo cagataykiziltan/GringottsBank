@@ -4,7 +4,7 @@ Bank
 
 For running, 
 
-1. First you must set up backup database from the DbAndPostmanCollections folder. <br/>
+1. First you must set up backup database or scripts from the DbAndPostmanCollections folder. <br/>
 2. Setting up connection string to appsetting.json. <br/>
 3. Get token from auth controller with basic authentication (Name = "Admin" password="pass"). <br/>
 4. Call functions with and barear token you got from auth controller. <br/>
